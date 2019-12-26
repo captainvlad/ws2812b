@@ -139,8 +139,15 @@ int main(void)
   /* USER CODE BEGIN WHILE */
 
 	while (1) {
-		light_array_of_diods(0, 0, 175, 0, 58);
-		set_colour(225, 225, 225, 0);
+//		light_diod_tape(0, 255, 0, 60);
+		for (int i = 0; i < 60; i++){
+			set_colour(0, 255, 0, i);
+			HAL_Delay(25);
+		}
+		for (int i = 0; i <= 60; i++){
+			set_colour(255, 0, 0, (60 - i));
+			HAL_Delay(25);
+		}
 	}
 
   /* USER CODE END 3 */

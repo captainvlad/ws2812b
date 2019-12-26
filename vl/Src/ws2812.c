@@ -82,9 +82,9 @@ void set_brightness(int position, int amount){
 }
 //------------------------------------------------------------------------------
 void set_colour(int r, int g, int b, int position){
-	buffer[position][0] = g;
-	buffer[position][1] = b;
-	buffer[position][2] = r;
+	buffer[position][0] = r;
+	buffer[position][1] = g;
+	buffer[position][2] = b;
 	light_from_buffer();
 }
 
