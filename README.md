@@ -29,3 +29,7 @@ STM32F411 Discovery (детальніше https://www.st.com/content/ccc/resourc
 
 За наявності часу використати DMA та PWM технології в реалізації проекту
 
+
+# P.S After finishing the project:
+ - you can see the usage instruсtions in the file: Instructions.pdf;
+
